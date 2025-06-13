@@ -6,6 +6,12 @@ export var ExternalFileType;
     ExternalFileType["Text"] = "TEXT";
     ExternalFileType["Other"] = "OTHER";
 })(ExternalFileType || (ExternalFileType = {}));
+export var ProjectTerminologyType;
+(function (ProjectTerminologyType) {
+    ProjectTerminologyType["Folder"] = "Folder";
+    ProjectTerminologyType["File"] = "File";
+    ProjectTerminologyType["Sprint"] = "Sprint";
+})(ProjectTerminologyType || (ProjectTerminologyType = {}));
 export var ResourceImplementation;
 (function (ResourceImplementation) {
     ResourceImplementation["Human"] = "Human";
@@ -57,6 +63,7 @@ export var TimestampedImplementation;
     TimestampedImplementation["Contact"] = "Contact";
     TimestampedImplementation["Asset"] = "Asset";
     TimestampedImplementation["Account"] = "Account";
+    TimestampedImplementation["Template"] = "Template";
     TimestampedImplementation["Folder"] = "Folder";
     TimestampedImplementation["File"] = "File";
     TimestampedImplementation["FlowNode"] = "FlowNode";
